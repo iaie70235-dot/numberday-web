@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DY Studio · daily puzzles</title>
+<meta property="og:title" content="DY Studio · daily puzzles" />
+<meta property="og:description" content="One math puzzle + one one-stroke puzzle. Daily. Free." />
+<meta property="og:type" content="website" />
+<style>
+  :root {
+    --cream: #fff8ee;
+    --cream-2: #fdf9ef;
+    --coral: #f25c4c;
+    --pink: #dc609e;
+    --black: #1a1a1a;
+    --grey: #9a8a75;
+    --border: #ecd9c2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+    background: var(--cream);
+    color: var(--black);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 48px 22px 80px;
+    text-align: center;
+  }
+  .brand {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin: 0 0 6px;
+  }
+  .tagline {
+    color: var(--grey);
+    font-size: 15px;
+    margin: 0 0 40px;
+  }
+  .game {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px;
+    margin: 14px 0;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .game:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  }
+  .game-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    flex-shrink: 0;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 26px;
+  }
+  .game.dotmaze .game-icon {
+    background: var(--cream-2);
+    color: var(--pink);
+    border: 1px solid var(--border);
+  }
+  .game-body {
+    flex: 1;
+    text-align: left;
+  }
+  .game-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 2px;
+  }
+  .game-sub {
+    color: var(--grey);
+    font-size: 13px;
+    margin: 0;
+  }
+  .game-cta {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--coral);
+    flex-shrink: 0;
+  }
+  .game.dotmaze .game-cta {
+    color: var(--pink);
+  }
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 40px 0 20px;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 18px;
+    font-size: 13px;
+    color: var(--grey);
+  }
+  .links a {
+    color: var(--grey);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--border);
+  }
+  .links a:hover { color: var(--black); }
+  .footer {
+    margin-top: 30px;
+    color: var(--grey);
+    font-size: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    /* keep cream tone — design intent */
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <h1 class="brand">DY Studio</h1>
+  <p class="tagline">Daily puzzles · indie · Vancouver 🇨🇦</p>
+
+  <a class="game numberday" href="https://apps.apple.com/app/id6770011211" target="_blank" rel="noopener">
+    <div class="game-icon">N</div>
+    <div class="game-body">
+      <p class="game-title">NumberDay: Math 24</p>
+      <p class="game-sub">One math puzzle a day · iOS · Free</p>
+    </div>
+    <span class="game-cta">Open ↗</span>
+  </a>
+
+  <a class="game dotmaze" href="https://apps.apple.com/app/id6770844136" target="_blank" rel="noopener">
+    <div class="game-icon">·–·</div>
+    <div class="game-body">
+      <p class="game-title">DotMaze: Daily One-Stroke</p>
+      <p class="game-sub">Connect every dot · iOS · Free</p>
+    </div>
+    <span class="game-cta">Open ↗</span>
+  </a>
+
+  <div class="divider"></div>
+
+  <div class="links">
+    <a href="privacy.html">NumberDay Privacy</a>
+    <a href="dotmaze/privacy.html">DotMaze Privacy</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:msdaniel81@gmail.com">Contact</a>
+  </div>
+
+  <p class="footer">© 2026 DY Studio · Minsuk You · Vancouver, BC</p>
+</div>
+
+</body>
+</html>
